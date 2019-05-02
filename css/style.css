@@ -1,0 +1,371 @@
+form[id^='p7mp'] .cmb-type-multicheck-inline > .cmb-td > .cmb2-checkbox-list > li {
+	width: 100%;
+}
+
+@media only screen and (min-width: 480px) {
+	form[id^='p7mp'] .cmb-type-multicheck-inline > .cmb-td > .cmb2-checkbox-list > li {
+		width: 50%;
+		float: left;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	form[id^='p7mp'] .cmb-type-multicheck-inline > .cmb-td > .cmb2-checkbox-list > li {
+		width: 33.33%;
+	}
+}
+
+form[id^=p7mp] {
+	position: relative;
+}
+
+form[id^='p7mp'] fieldset {
+	border: 1px solid #ebebeb;
+	padding: 1em;
+	margin-bottom: 2em;
+}
+
+form[id^='p7mp'] fieldset > legend {
+	border: 1px solid #ebebeb;
+	padding: 0 0.6em;
+}
+
+form[id^='p7mp'] .cmb-repeat-group-wrap .cmb-repeat-group-field {
+	border-bottom: none;
+	padding: 0;
+}
+
+form[id^='p7mp'] .cmb-repeat-group-wrap .cmb-remove-field-row {
+	margin-bottom: 0;
+}
+
+form[id^='p7mp'] .cmb-repeat-group-wrap .cmb-group-title {
+	margin-bottom: 2em;
+}
+
+form[id^='p7mp'] .cmb-repeat-group-wrap .cmb-field-list {
+	padding-bottom: 0;
+}
+
+form[id^='p7mp'] .cmb-repeat-group-wrap .cmb-td .cmb-th,
+form[id^='p7mp'] .cmb-th {
+	width: 30%;
+	min-width: 200px;
+	padding: 5px 0 1em 0;
+	float: left;
+}
+
+form[id^='p7mp'] .button-primary[type='submit'] {
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+form#p7-mp_login_form .cmb-th {
+	padding: 0;
+	width: 100%;
+}
+
+form[id^='p7mp'] .cmb-repeat-group-wrap .cmb-td .cmb-td .cmb-td,
+form[id^='p7mp'] .cmb-td {
+	width: 70%;
+	padding: 0 0 1em 0;
+	float: left;
+}
+
+form[id^='p7mp'] .cmb-repeat-group-wrap .cmb-td,
+form#p7-mp_login_form .cmb-td {
+	width: 100%;
+}
+
+@media only screen and (max-width: 1065px) {
+	form[id^='p7mp'] .cmb-repeat-group-wrap .cmb-td .cmb-th,
+	form[id^='p7mp'] .cmb-th {
+		width: 100%;
+		padding: 0;
+	}
+
+	form[id^='p7mp'] .cmb-repeat-group-wrap .cmb-td .cmb-td .cmb-td,
+	form[id^='p7mp'] .cmb-td {
+		width: 100%;
+	}
+}
+
+form[id^='p7mp'] .cmb-td input:not([type='checkbox']) {
+	width: 100%;
+}
+
+form[id^='p7mp'] .cmb-type-multicheck-inline > .cmb-th,
+form[id^='p7mp'] .cmb-type-multicheck-inline > .cmb-td {
+	width: 100%;
+}
+
+form[id^='p7mp'] .cmb-type-multicheck-inline > .cmb-td p {
+	text-align: right;
+	margin-top: -1.2em;
+}
+
+form[id^='p7mp'] .cmb-type-multicheck-inline > .cmb-td .cmb-multicheck-toggle {
+	color: #000;
+	background-color: #dfdfdf;
+	cursor: pointer;
+	padding: 0.4em;
+}
+
+form[id^='p7mp'] .cmb-type-textarea > .cmb-td textarea {
+	width: 100%;
+}
+
+form[id^='p7mp'] .cmb-type-select > .cmb-td select {
+	width: 100%;
+}
+
+form[id^='p7mp'] .cmb-repeat > .cmb-td .cmb-add-row-button {
+	margin-bottom: 2em;
+}
+
+form[id^='p7mp'] .g-recaptcha > div {
+	margin: 0 auto 2em;
+}
+
+.p7-mp-user-img {
+	display: inline-block;
+	position: relative;
+}
+
+.p7-mp-user-img > a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: -32px;
+	top: -2px;
+}
+
+.p7-mp-user-img > a svg {
+	width: 100%;
+	height: 100%;
+	fill: #f00;
+}
+
+form[id^='p7mp_l'] .cmb-th {
+	padding-bottom: 0;
+}
+
+form[id^='p7mp_l'] .cmb-th label {
+	padding-top: 0;
+}
+
+form[id^='p7mp_l'] .cmb-td {
+	width: 100%;
+}
+
+.p7-mp-login-box::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.p7-mp-login-box .p7-mp-not-a-member {
+	padding: 1em 0;
+	float: left;
+}
+
+.p7-mp-login-box .p7-mp-forgot-pw {
+	display: block;
+	clear: both;
+	padding-top: 1em;
+}
+
+.p7-mp-login-box .btn-success {
+	background-color: #5cb85c;
+}
+
+.p7-mp-login-box .btn-success:hover {
+	background-color: #449d44;
+}
+
+.p7-mp-login-box .p7-mp-register-btn {
+	float: right;
+}
+
+.p7-mp-login-box.over {
+	position: relative;
+}
+
+.p7-mp-login-box-activator.hidden,
+.p7-mp-login-box.hidden {
+	display: none;
+}
+
+.p7-mp-login-box.over > div {
+	z-index: 2;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #fff;
+	border: 1px solid #ebebeb;
+	padding: 1em;
+}
+
+div.p7-mp-submission-processing {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,0.8);
+	z-index: 999;
+}
+
+div.p7-mp-submission-processing-spinner {
+	position: absolute;
+	left: calc(50% - 25px);
+	bottom: 100px;
+	width: 50px;
+	height: 50px;
+	background: center center no-repeat url('../images/loading.png');
+	background-size: cover;
+	z-index: 999;
+	animation-name: rotate; 
+	animation-duration: 1s; 
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+div.p7-mp-submission-error-message p:last-child {
+	margin-bottom: 0;
+}
+
+.p7-mp-submission-error-message,
+.p7-mp-validation-error-message {
+	background-color: #f8d7da;
+	color: #721c24;
+	border: 1px solid #f5c6cb;
+	border-radius: 4px;
+	padding: 0.6em;
+	margin: 0 0 1em 0;
+}
+
+.p7-mp-submission-warning-message {
+	background-color: #fcf8e3;
+	color: #8a6d3b;
+	border: 1px solid #faf2cc;
+	border-radius: 4px;
+	padding: 0.6em;
+	margin: 0 0 1em 0;
+}
+
+.p7-mp-submission-success-message {
+	background-color: #dff0d8;
+	color: #3c763d;
+	border: 1px solid #d0e9c6;
+	border-radius: 4px;
+	padding: 0.6em;
+	margin: 0 0 1em 0;
+}
+
+.p7-mp-validation-error {
+	border-color: #ff6666 !important;
+}
+
+.p7-mp-validation-error-message {
+	max-width: 300px;
+}
+
+.p7-mp-validation-error-message ul {
+	padding-top: 1em;
+	padding-left: 2em;
+}
+
+.single-p7mp_member .type-p7mp_member .entry-content,
+.p7mp-member                          .entry-content {
+	position: relative;
+}
+
+.single-p7mp_member .type-p7mp_member .entry-content,
+.p7mp-member                          .entry-content,
+.single-p7mp_member .type-p7mp_member .entry-content ul,
+.p7mp-member                          .entry-content ul,
+.single-p7mp_member .type-p7mp_member .entry-content ol,
+.p7mp-member                          .entry-content ol,
+.single-p7mp_member .type-p7mp_member .entry-content p,
+.p7mp-member                          .entry-content p,
+.single-p7mp_member .type-p7mp_member .entry-content h2,
+.p7mp-member                          .entry-content h2,
+.single-p7mp_member .type-p7mp_member .entry-content h3,
+.p7mp-member                          .entry-content h3,
+.single-p7mp_member .type-p7mp_member .entry-content h4,
+.p7mp-member                          .entry-content h4,
+.single-p7mp_member .type-p7mp_member .entry-content address,
+.p7mp-member                          .entry-content address {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.single-p7mp_member .type-p7mp_member .entry-content address,
+.p7mp-member                          .entry-content address {
+	display: inline-block;
+}
+
+.single-p7mp_member .type-p7mp_member .entry-content svg,
+.p7mp-member                          .entry-content svg {
+	height: 1em;
+	width: 1em;
+	margin-right: 0.4em;
+	fill: #2d2d2d;
+	vertical-align: top;
+	margin-top: 0.4em;
+}
+
+.p7-mp-terms.multicol {
+	list-style-position: outside;
+	column-gap: 1em;
+	margin-left: 1em;
+}
+
+.p7-mp-terms.multicol li {
+	margin-left: 1em;
+}
+
+.p7-mp-terms-inline li {
+	font-size: 0.8em;
+	display: inline-block;
+	color: #2d2d2d;
+	background-color: #ebebeb;
+	margin: 0 5px 2px 0;
+	padding: 0 0.4em;
+}
+
+.p7-mp-terms-inline li a {
+	color: inherit;
+}
+
+.p7-mp-terms-inline li:last-child {
+	margin-right: 0;
+}
+
+.p7-mp-highlight {
+	position: absolute;
+	right: 0;
+	top: -4.2em;
+}
+
+.p7-mp-highlight svg {
+	height: 2em !important;
+	width: 2em !important;
+	fill: #ffd700 !important;
+}
+
+.p7-mp-member-description p {
+	margin-bottom: 0.6em;
+}
+
+
+
+
+
+@keyframes rotate {
+    from { transform: rotate(   0deg ); }
+    to   { transform: rotate( 360deg ); }
+}
